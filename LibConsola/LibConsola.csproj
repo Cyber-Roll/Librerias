@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="SourceCodeRoll\LibConsola.cs" />
+    <Compile Remove="SourceCodeRoll\LibConsola2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="SourceCodeRoll\LibConsola.cs" />
+    <None Include="SourceCodeRoll\LibConsola2.cs" />
+  </ItemGroup>
+
+</Project>
